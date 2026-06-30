@@ -1,0 +1,61 @@
+canonical_identifier: bkk:krp/KR4b0022/v1
+canonical_location: https://kanripo.org/bkk/KR4b0022/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 應休璉集二卷
+  identifiers:
+    krp: KR4b0022
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0022.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0022_001.yaml, hash: 'sha256:146684b6caf373ed52e2e421d843b8cbf115f83367e0d23f168eda530d234fad'}
+  - {seq: 2, filename: KR4b0022_002.yaml, hash: 'sha256:c5caba89a6c18007c5dba84593756c6dc1a1739bcb663b6aac6df8d0abb3491b'}
+  - {seq: 3, filename: KR4b0022_003.yaml, hash: 'sha256:467bad81d1a341757ed5e853210e36ddbaf2872c63bfa0e0de32aefde527c888'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0022_001.markers.yaml, hash: 'sha256:29fed7d9b81a6a5bfc51379b2705c73402d61d90ca2e11aea1a5211c309197cd'}
+  - {seq: 2, role: markers, filename: assets/KR4b0022_002.markers.yaml, hash: 'sha256:84286cad321b90b292955ef855821e864b73abf6a29a96fe156980f1b4b4e168'}
+  - {seq: 3, role: markers, filename: assets/KR4b0022_003.markers.yaml, hash: 'sha256:73a218edf6217f0db5c702bf588cccc8d48c8c093771ac68f6094f975a293dc1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0022_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 714
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0022_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 3351
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0022_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 940
+  label: 應休璉集
+  type: section
+  level: 1
+hash: sha256:ee5925051061406bb1e43dbfa9bdbd4612946f8d578546b42ff8baf735454d24
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
