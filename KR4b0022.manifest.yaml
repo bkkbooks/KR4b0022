@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4b0022/v1
 canonical_location: https://kanripo.org/bkk/KR4b0022/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 應休璉集二卷
   identifiers:
@@ -17,13 +17,13 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR4b0022_001.yaml, hash: 'sha256:4d68af0767bb4c07f8d0d48475af5fe090f6a9155314e4b3ba17a99fce307190'}
-  - {seq: 2, filename: KR4b0022_002.yaml, hash: 'sha256:79488cb5c6b5beb1b334956cb5b7b808cf4006fd6744bf2dde5eeb0f65a221b8'}
-  - {seq: 3, filename: KR4b0022_003.yaml, hash: 'sha256:14cb2cb462be6b2bb8bfb9d323f739ca7370c961ac46f29b5cc85db91b963951'}
+  - {seq: 1, filename: KR4b0022_001.yaml, hash: 'sha256:146684b6caf373ed52e2e421d843b8cbf115f83367e0d23f168eda530d234fad'}
+  - {seq: 2, filename: KR4b0022_002.yaml, hash: 'sha256:5420c65296d237717475a1d7e2759c3c3f69301a9bbc8283a76df9b13ff4ef49'}
+  - {seq: 3, filename: KR4b0022_003.yaml, hash: 'sha256:135bad37e2e9af648930c073d06f7de64693e5f2a6f8ff8db215c5927c3220aa'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR4b0022_001.markers.yaml, hash: 'sha256:c15f214536a3813c7272a420d0c51960d23e0c3784257157a1bb00b6ed0e76f0'}
-  - {seq: 2, role: markers, filename: assets/KR4b0022_002.markers.yaml, hash: 'sha256:9796fb1e7f0f1981de52ae33896aa55520b8277507f1fafae68db9aebf841630'}
-  - {seq: 3, role: markers, filename: assets/KR4b0022_003.markers.yaml, hash: 'sha256:99015b592d667857def58675eefea8e22c32da00d20f684ba9d082b66fa1329f'}
+  - {seq: 1, role: markers, filename: assets/KR4b0022_001.markers.yaml, hash: 'sha256:2c0e59b04275801157b34ea749e4a512d7615072c8b518234a88ab5915667702'}
+  - {seq: 2, role: markers, filename: assets/KR4b0022_002.markers.yaml, hash: 'sha256:14e0e5515dd12b47c826618bc1fe75d9a24131ec2cba145c87d6570fcbc1521c'}
+  - {seq: 3, role: markers, filename: assets/KR4b0022_003.markers.yaml, hash: 'sha256:c2105c50692cb721664519189733c76ef0946c9dce3b1136eaa4e4e93aa61208'}
 table_of_contents:
 - ref:
     seq: 1
@@ -55,4 +55,7 @@ table_of_contents:
   label: 應休璉集
   type: section
   level: 1
-hash: sha256:2666fa769e9b889912afff04a409d7d8021eecb270ed665d945bb47bfe3d53a9
+hash: sha256:c2bf60c68fa188ebb1cb0dffd63c57136eba3808f32bbe6993fbaafc050ec8f0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
